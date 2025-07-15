@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Frontend Student Task</title>
+</head>
+<body>
+
+  <nav>
+    <a href="#home">Home</a> |
+    <a href="#about">About</a> |
+    <a href="#skills">Skills</a> |
+    <a href="#profile">Profile</a> |
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <h1 id="home">Welcome to My Page</h1>
+  <p>This is a simple HTML-only webpage for the frontend assignment.</p>
+
+  <h2 id="about">About Me</h2>
+  <p>Hello! My name is Tarteel Darabee. I am a frontend student learning web development basics.</p>
+
+  <h2>My Photo</h2>
+  <img src="https://via.placeholder.com/200" alt="My Photo" width="200">
+
+  <h2 id="skills">My Skills</h2>
+  <ul>
+    <li>HTML</li>
+    <li>Git & GitHub</li>
+    <li>Problem Solving</li>
+    <li>Communication</li>
+  </ul>
+
+  <h2 id="profile">Profile Information</h2>
+  <table border="1">
+    <tr>
+      <th>Full Name</th>
+      <td>Tarteel Darabee</td>
+    </tr>
+    <tr>
+      <th>Gender</th>
+      <td>
+        <form>
+          <input type="radio" name="gender" value="female"> Female
+          <input type="radio" name="gender" value="male"> Male
+        </form>
+      </td>
+    </tr>
+    <tr>
+      <th>Favorite Language</th>
+      <td>
+        <form>
+          <select>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">JavaScript</option>
+          </select>
+        </form>
+      </td>
+    </tr>
+  </table>
+
+  <h2 id="contact">Contact Me</h2>
+  <form>
+    <label>Your Name:</label><br>
+    <input type="text" name="name"><br><br>
+
+    <label>Your Email:</label><br>
+    <input type="email" name="email"><br><br>
+
+    <label>Your Message:</label><br>
+    <textarea rows="5" cols="30"></textarea><br><br>
+
+    <button type="submit">Send</button>
+  </form>
+
+</body>
+</html>
